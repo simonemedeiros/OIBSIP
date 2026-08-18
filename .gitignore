@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Environment
+.env
+
+# Temporary files
+*.tmp
+
+# OIBSIP projects not currently in progress
+/DataAnalytics-L1-DataCleaning/
+/DataAnalytics-L2-AutocompleteAutocorrect/
+/DataAnalytics-L2-FraudDetection/
+/DataAnalytics-L2-GooglePlayStoreAnalysis/
+
