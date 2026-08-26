@@ -10,7 +10,8 @@ The project focuses on sales performance, customer characteristics, product cate
 OIBSIP/
 └── DataAnalytics-L1-CustomerSegmentation/
     ├── notebooks/
-    │   └── retail-sales-dataset.ipynb
+    │   └── retail-sales-dataset.i
+    ├─outputs 
     ├── download_data.py
     └── README.md
 ```
