@@ -1,22 +1,22 @@
-# Oasis Infobyte Data Analytics
+# Customer Segmentation — Retail Sales Analysis
 
-## Project Overview
-This repository contains the project for Exploratory Data Analysis (EDA) on Customer Segmentation
+Exploratory data analysis of a retail sales dataset using Python.
 
-The objective of this project is to perform a thorough exploratory data analysis on a retail sales dataset to uncover pattterns, customer behavior trends, and actionable business insights using Python and standard data science libraries.
+The project focuses on sales performance, customer characteristics, product categories, and transaction patterns.
 
----
+## Project Structure
 
-## Repository Structure
-
+```text
 OIBSIP/
-├-DataAnalytics-L1-CustomerSegmentation/
-│   ├── notebooks/
-│   │   └── retail-sales-dataset.ipynb
-│   ├── download_data.py
-│   └── README.md
+└── DataAnalytics-L1-CustomerSegmentation/
+    ├── notebooks/
+    │   └── retail-sales-dataset.ipynb
+    ├── download_data.py
+    └── README.md
+```
 
-## Tech Stack
+## Tools
+
 * Python
 * Pandas
 * NumPy
@@ -24,23 +24,48 @@ OIBSIP/
 * Seaborn
 * Jupyter Notebook
 
-## Feature Checklist
-- [x] Load dataset and perform initial inspection: shape, column dtypes, null value check
-- [x] Descriptive statistics: mean, median, mode, standard deviation for all numerical columns
-- [x] Time series analysis: plot monthly and quarterly sales trends using line charts
-- [x] Customer demographics analysis: distribution of customer age groups, gender breakdown
-- [x] Product analysis: top 10 best-selling products; revenue by product category (bar chart)
-- [x] Heatmap: correlation matrix between numerical variables
-- [x] At least one additional visualisation of your choice that reveals a non-obvious insight (Sales Channel vs. Payment Method)
-- [x] Markdown cells throughout the notebook with written observations after each chart
-- [x] Conclusion section: at least 3 specific, actionable business recommendations based on findings
+## Analysis
 
-## Summary of Insights and Findings
-1. **Sales Trends:** Analysis of monthly and quarterly transaction records highlights significant revenue volatility, including a sharp decline in Q2 followed by recovery phases.
-2. **Category Performance:** While product quantities sold remain consistent, category-level financials reveal that the Beauty category generates the highest overall revenue compared to other segments.
-3. **Pricing and Channels:** Correlation matrices and categorical visualisations indicate that transaction amounts remain stable across different sales channels and payment methods, while promotional discounts operate independently of overall transaction scale.
+The notebook includes:
+
+* Dataset inspection
+* Data types and missing values
+* Descriptive statistics
+* Monthly and quarterly sales analysis
+* Customer age and gender distribution
+* Top 10 best-selling products
+* Revenue by product category
+* Correlation analysis
+* Sales channel and payment method analysis
+* Data visualisations with observations
+
+## Key Findings
+
+### Sales
+
+Sales vary throughout the analysed periods, with a noticeable decline in Q2 followed by a recovery.
+
+### Product Categories
+
+The **Beauty** category has the highest total revenue among the analysed categories.
+
+### Sales Channels and Payment Methods
+
+Transaction amounts are relatively similar across the different sales channels and payment methods.
+
+### Discounts
+
+The analysis does not show a clear relationship between discount values and transaction amounts.
 
 ## Business Recommendations
-1. **Optimize Marketing Allocation:** Shift advertising budgets toward top-performing revenue categories like Beauty to maximize return on investment.
-2. **Restructure Promotional Pricing:** Replace static discounting with volume-based or tiered promotional pricing models to effectively stimulate transaction scale.
-3. **Mitigate Seasonal Fluctuations:** Investigate operational bottlenecks during low-performing quarters to ensure consistent revenue stabilization throughout the year.
+
+1. Focus marketing efforts on categories with higher revenue.
+2. Test different promotional and discount strategies.
+3. Investigate the factors behind lower sales periods to support planning and decision-making.
+
+## Notebook
+
+The complete analysis is available in:
+
+`notebooks/retail-sales-dataset.ipynb`
+
