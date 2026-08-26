@@ -1,7 +1,7 @@
 # Oasis Infobyte Data Analytics
 
 ## Project Overview
-This repository contains the project for Exploratory Data Analysis (EDA) on Retail Sales Data
+This repository contains the project for Exploratory Data Analysis (EDA) on Customer Segmentation
 
 The objective of this project is to perform a thorough exploratory data analysis on a retail sales dataset to uncover pattterns, customer behavior trends, and actionable business insights using Python and standard data science libraries.
 
@@ -10,7 +10,7 @@ The objective of this project is to perform a thorough exploratory data analysis
 ## Repository Structure
 
 OIBSIP/
-├--DataAnalytics-L1-CustomerSegmentation/
+├-DataAnalytics-L1-CustomerSegmentation/
 │   ├── notebooks/
 │   │   └── retail-sales-dataset.ipynb
 │   ├── download_data.py
