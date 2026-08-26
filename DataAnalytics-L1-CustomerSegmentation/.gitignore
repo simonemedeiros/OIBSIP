@@ -1,0 +1,8 @@
+# Data folder
+data/
+
+# Python / Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
