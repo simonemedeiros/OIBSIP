@@ -59,10 +59,9 @@ Transaction amounts are relatively similar across the different sales channels a
 The analysis does not show a clear relationship between discount values and transaction amounts.
 
 ## Business Recommendations
-
-1. Focus marketing efforts on categories with higher revenue.
-2. Test different promotional and discount strategies.
-3. Investigate the factors behind lower sales periods to support planning and decision-making.
+1. Category Performance: Beauty accounts for the highest revenue, while Clothing has the lowest. This suggests an opportunity to review category-level sales, pricing, and product mix before allocating additional marketing or inventory resources.
+2. Promotional Strategy: The weak correlation between discount percentage and transaction amount (-0.09) suggests that discounts alone may not explain changes in transaction value. Testing targeted promotions, such as product bundles or volume-based offers, could provide a clearer view of their impact on sales.
+3. Sales Fluctuations: The decline observed in Q2 2025, followed by a recovery later in the year, indicates a need to investigate the factors behind these changes. Comparing product, customer, and transaction-level data across periods could help identify patterns that support future sales planning.
 
 ## Notebook
 
